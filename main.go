@@ -1,9 +1,7 @@
-# Loops
+package main
 
-Loops work just as in any other languages, here are examples of for loops.
-Note that in the last example, im showing that you can't change the value of items inside the slice using the simple methods.
+import "fmt"
 
-```
 func main() {
 
 	// AKA traditional "while" loop
@@ -40,5 +38,5 @@ func main() {
 		value = "New Value" // This will not update the value inside 'names'
 	}
 	fmt.Println(names)
+
 }
-```
